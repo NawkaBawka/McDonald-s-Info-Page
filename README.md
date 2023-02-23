@@ -1,7 +1,2 @@
-# McDonald-s-Info-Page
-# McDonald-s-Info-Page
-# McDonald-s-Info-Page
-# McDonald-s-Info-Page
-# McDonald-s-Info-Page
-# McDonald-s-Info-Page
-# McDonald-s-Info-Page
+# My First Page
+I used [TailwindCSS](https://tailwindcss.com/) for this project.
