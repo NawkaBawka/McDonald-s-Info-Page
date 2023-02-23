@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Manage landing page</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6">
+        <!-- flex container -->
+        <div class="flex items-center justify-between">
+            <!-- logo -->
+            <div class="md:w-1/2">
+                <img src="mcdonalds.jpg" alt="" />
+            </div>
+            <!-- Menu items -->
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="hover:text-red-600">Pricing</a>
+                <a href="#" class="hover:text-red-600">Product</a>
+                <a href="#" class="hover:text-red-600">About US</a>
+                <a href="#" class="hover:text-red-600">Careers</a>
+                <a href="#" class="hover:text-red-600">Community</a>
+            </div>
+            <!-- Button -->
+            <a href="#"
+                class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-red-400">
+                Get Started
+            </a>
+            <!-- hamburger icon -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+        <!-- mobile menu -->
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <div class="a">Pricing</div>
+                <div class="a">Product</div>
+                <div class="a">About Us</div>
+                <div class="a">Careers</div>
+                <div class="a">Community</div>
+            </div>
+
+
+
+            </ace-y-6>
+        </div>
+    </nav>
+    <!-- Hero -->
+    <section id="Hero">
+        <!-- Flex Container -->
+        <div
+            class="container flex gap-4 flex-col md:flex-row-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            <!-- image -->
+            <div class="md:w-1/2">
+                <img src="fry.jpg" alt="" />
+            </div>
+            <!-- left item -->
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+                    Choose the best version available in the growing market
+                </h1>
+                <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+                    Move with velocity to drive profitable growth and become an even better McDonald's serving more
+                    customers delicious food each day around the world.
+                </p>
+                <div class="flex justify-center md:justify-start">
+                    <a href="#" class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-red-400">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="container gap-4 flex flex-col px-6 mx-auto mt-12 space-y-12 md:space-y-0 md:flex-row">
+        <!-- What's different -->
+        <div class="w-full flex flex-col space-y-12">
+            <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
+                What's different about McDonald's?
+            </h2>
+            <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+                McDonald's is famous for the speed of customer service without compromising the quality of the
+                service.
+                Universality of the taste to a great extent represents another base of McDonald's competitive
+                advantage. <br> 
+                McDonald's business strategy utilizes a combination of cost leadership and international market expansion strategies. 
+                Franchising form of new market entry is utilized within McDonald's business strategy to a great extent. 
+                <br> The fast food chain has one of the largest property portfolios on the world and it is a giant real estate company. 
+            </p>
+        </div>
+        <!-- List of what's different -->
+        <ul class="w-full flex flex-col gap-8 md:mx-auto">
+            <!-- list item 1 -->
+            <li>
+                <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent flex items-center space-x-2">
+                    <h1 class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
+                        01
+                    </h1>
+                    <h3 class="text-base font-bold md:mb-4 md:hidden">
+                        Consistent quality
+                    </h3>
+                </div>
+                <div>
+                    <h3 class="hidden mb-4 text-lg font-bold md:block">
+                        Consistent quality
+                    </h3>
+                    <p class="text-darkgreyishblue">
+                        McDonald's has a plan to keep the quality consistent through having teams of chefs who are
+                        trained in the way McDonald's operates.
+                    </p>
+                </div>
+            </li>
+
+
+            <!-- list item 2 -->
+            <li>
+                <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent flex items-center space-x-2">
+                    <h1 class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
+                        02
+                    </h1>
+                    <h3 class="text-base font-bold md:mb-4 md:hidden">
+                        Value
+                    </h3>
+                </div>
+                <div>
+                    <h3 class="hidden mb-4 text-lg font-bold md:block">
+                        Value
+                    </h3>
+                    <p class="text-darkgreyishblue">
+                        McDonald's has a large selection of meals for both children and adults at a low cost.
+                        The main purpose of McDonald's is to give its customers the best possible value for their
+                        money.
+                    </p>
+                </div>
+            </li>
+
+
+
+
+            <!-- list item 3 -->
+            <li>
+                <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent flex items-center space-x-2">
+                    <h1 class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
+                        03
+                    </h1>
+                    <h3 class="text-base font-bold md:mb-4 md:hidden">
+                        Good Customer Service
+                    </h3>
+                </div>
+                <div>
+                    <h3 class="hidden mb-4 text-lg font-bold md:block">
+                        Good Customer Service
+                    </h3>
+                    <p class="text-darkgreyishblue">
+                        With great customer service and a great community service department, McDonald's
+                        remains
+                        a leader in communities all over the world.
+                    </p>
+                </div>
+            </li>
+
+
+
+
+
+
+
+        </ul>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="container px-5 mx-auto mt-24">
+        <!-- Heading -->
+        <h2 class="text-4xl font-bold text-center">
+            Who made McDonald's different?
+        </h2>
+
+        <!-- Testimonials Container -->
+        <div class="mt-24 flex items-center justify-between flex-col md:flex-row">
+
+            <!-- Maurice McDonald -->
+            <div class="flex flex-col items-center p-6 gap-6 bg-veryLightGray">
+                <img src="maurice.jpg" class="w-32 rounded-lg" alt="" />
+                <h5 class="text-lg font-bold">Maurice McDonald</h5>
+                <p class="text-sm text-darkGrayishBlue">
+                    Maurice McDonald, who used an assembly-line format to prepare and sell a large
+                    volume of hamburgers, french fries, and milk shakes.
+                </p>
+            </div>
+
+            <!-- Richard McDonald -->
+            <div class="flex flex-col items-center p-6 gap-6 bg-veryLightGray">
+                <img src="richard.jpg" class="w-28 rounded-lg" alt="" />
+                <h5 class="text-lg font-bold">Richard McDonald</h5>
+                <p class="text-sm text-darkGrayishBlue">
+                    Richard McDonald started the first McDonald's (MCD) - Get Free Report restaurant in
+                    1948 by converting their drive-through barbecue restaurant into a burger and milkshake joint
+                </p>
+            </div>
+
+            <!-- Harry J. Sonneborn -->
+            <div class="flex flex-col items-center p-6 gap-6 bg-veryLightGray">
+                <img src="Harry.jpg" class="w-32 rounded-lg" alt="" />
+                <h5 class="text-lg font-bold">Harry J. Sonneborn</h5>
+                <p class="text-sm text-darkGrayishBlue">
+                    Harry J. Sonneborn was an American businessman, best known for being the first
+                    president and chief executive of McDonald's Corporation.
+                </p>
+            </div>
+        </div>
+        <div class="flex flex.col items-center justify-center">
+            <a href="#"
+            class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-red-400">
+            Get Started
+        </a>
+            </div>
+    </section>
+    <!-- CTA section -->
+    <section id="cta" class="bg-brightRed mt-10">
+        <!-- flex container -->
+        <div class="container flex flex-col items-center justify-between tm-12 px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+            <!-- Heading -->
+            <h2 class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left">
+                McDonald's Business Strategy and Competitive Advantage
+            </h2>
+            <!-- Button -->
+            <div>
+                <a
+                href="#" 
+                class="p-3 px-6 pt-2 text-brightRed bg-white rounded-full hover:bg-gray-600">
+                        Get Started
+                </a>
+                </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-verydarkBlue">
+        <!-- Flex COntainer -->
+        <div class="container flex flex-col-reverse justify-between px-6 
+        py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+            <!-- Logo and social links container -->
+            <div class="flex flex-col-reverse items-center justify-between space-y-12 
+            md:flex-col md:space-y-0 md:items-start">
+            <div class="mx-auto my-6 text-center text-white md:hidden">
+                Copyright &copy; 2023, All Rights  Reserved
+            </div>
+            <!-- logo -->
+            <div>
+                <img src="mcdonalds.jpg" class="h-8" alt="">
+            </div>
+            <!-- social links -->
+            <div class="flex justify-center space-x-4">
+                <!-- link 1 -->
+                <a href="#">
+                    <img src="fb.png" alt="" class="h-8">
+                </a> 
+                <!-- link 2 -->
+                <a href="#">
+                    <img src="ig.png" alt="" class="h-8">
+                </a> 
+                <!-- link 3 -->
+                <a href="#">
+                    <img src="twitter.png" alt="" class="h-8">
+                </a> 
+                <!-- link 4 -->
+                <a href="#">
+                    <img src="yt.png" alt="" class="h-8">
+                </a> 
+            </div>
+        </div>
+        <!-- list container -->
+        <div class="flex justify-around space-x-32">
+            <div class="flex flex-col space-y-3 text-white">
+                <a href="#" class="hover:text-brightred">Home</a>
+                <a href="#" class="hover:text-brightred">Pricing</a>
+                <a href="#" class="hover:text-brightred">Products</a>
+                <a href="#" class="hover:text-brightred">About Us</a>
+            </div>
+            <div class="flex flex-col space-y-3 text-white">
+                <a href="#" class="hover:text-brightred">Careers</a>
+                <a href="#" class="hover:text-brightred">Community</a>
+                <a href="#" class="hover:text-brightred">Privacy Policy</a>
+            </div>
+        </div>
+        <!-- input container -->
+        <div class="flex flex-col justify-between">
+    <form>
+            <div class="flex space-x-3">
+                <input type="text" 
+                class="flex-1 px-4 rounded-full focus:outline-none"
+                placeholder="updated in your inbox" />
+                    <button class="px-6 py-2 text-white rounded-full bg-brightRed
+                    hover:bg-brightRedLights focus:outline-none">Let's Go</button>
+
+            </div>
+    </form>
+    <div class="hidden text-white md:block">
+        Copyright &copy; 2023, All Rights  Reserved
+    </div>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
